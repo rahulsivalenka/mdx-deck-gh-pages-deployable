@@ -1,4 +1,9 @@
 import { Link } from 'gatsby';
+import { nightOwl } from '@code-surfer/themes';
+import { themes } from 'mdx-deck';
+import { CodeSurfer, CodeSurferColumns, Step } from 'code-surfer';
+
+export const theme = themes.notes;
 
 # Test GitHub Pages Deployable Deck
 
@@ -10,4 +15,16 @@ import { Link } from 'gatsby';
 
 ---
 
-# Third Slide
+<CodeSurferColumns>
+
+<Step title="Third Slide with CodeSurfer">
+
+```jsx file=./samples/Sample.js
+
+```
+
+Here is a sample code shown using CodeSurferColumns
+
+</Step>
+
+</CodeSurferColumns>

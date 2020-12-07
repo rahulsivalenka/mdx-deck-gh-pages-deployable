@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@code-surfer/themes": "^3.1.1",
+    "@mdx-deck/themes": "^4.1.0",
     "code-surfer": "^3.1.1",
     "gatsby": "^2.28.0",
     "gatsby-plugin-catch-links": "^2.6.0",
