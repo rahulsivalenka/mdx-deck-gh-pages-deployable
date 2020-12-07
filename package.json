@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "mdx-deck slides/deck.mdx"
+    "start": "mdx-deck slides/deck.mdx",
+    "clean": "rm -rf .cache public",
+    "prebuild": "npm run clean",
+    "build": "gatsby build --prefix-paths",
+    "predeploy": "npm run build",
+    "deploy": "npm run gh-pages",
+    "gh-pages": "npx gh-pages -d public"
   },
   "keywords": [],
   "author": "Phani Rahul Sivalenka",
