@@ -1,0 +1,12 @@
+/* Theme color overrides to match code-surfer's oceanic next theme */
+:root {
+  --theme-ui-colors-background: #011627;
+  --theme-ui-colors-background: #282c34;
+  --theme-ui-colors-text: #ffffff;
+}
+
+/* Notes Theme text-alignment fix for code surfer blocks */
+.cs-layout,
+.cs-col-layout {
+  text-align: left;
+}

@@ -3,6 +3,9 @@ import { nightOwl } from '@code-surfer/themes';
 import { themes } from 'mdx-deck';
 import { CodeSurfer, CodeSurferColumns, Step } from 'code-surfer';
 
+import './styles/overrides.css';
+import './styles/styles.css';
+
 export const theme = themes.notes;
 
 # Test GitHub Pages Deployable Deck
@@ -15,7 +18,7 @@ export const theme = themes.notes;
 
 ---
 
-<CodeSurferColumns>
+<CodeSurferColumns themes={[nightOwl]}>
 
 <Step title="Third Slide with CodeSurfer">
 

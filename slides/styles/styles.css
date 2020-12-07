@@ -1,0 +1,7 @@
+.row {
+  display: flex;
+}
+
+.row .row-item:not(:last-child) {
+  margin-right: 24px;
+}
