@@ -1,0 +1,19 @@
+{
+  "name": "mdx-deck-gh-pages-deployable",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "mdx-deck slides/deck.mdx"
+  },
+  "keywords": [],
+  "author": "Phani Rahul Sivalenka",
+  "license": "ISC",
+  "dependencies": {
+    "@code-surfer/themes": "^3.1.1",
+    "code-surfer": "^3.1.1",
+    "gatsby": "^2.28.0",
+    "gatsby-plugin-catch-links": "^2.6.0",
+    "gatsby-theme-mdx-deck": "^3.0.10",
+    "mdx-deck": "^3.0.10"
+  }
+}
